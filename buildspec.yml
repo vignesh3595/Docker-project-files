@@ -8,7 +8,7 @@ phases:
        - mvn --version
   build:
     commands:
-       - mvn clean install -Dskiptests
+      # - mvn clean install -Dskiptests
        - docker build -t capstone .
       # - command
   post_build:
