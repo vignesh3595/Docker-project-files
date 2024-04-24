@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       # - mvn clean install -Dskiptests
-       - docker build -t capstone .
+       - docker build -t spring .
       # - command
   post_build:
      commands:
