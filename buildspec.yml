@@ -8,7 +8,7 @@ phases:
        - mvn --version
   build:
     commands:
-        - mvn clean install
+        - mvn clean package
       # - command
   post_build:
      commands:
