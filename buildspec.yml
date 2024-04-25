@@ -8,9 +8,8 @@ phases:
        - mvn --version
   build:
     commands:
-      # - mvn clean install -Dskiptests
-       - docker build -t spring .
-      # - command
+        - mvn clean install -Dskiptests
+        # - command
   post_build:
      commands:
         - echo "transfer the artifact..."
